@@ -361,7 +361,8 @@ function exportarParaExcel() {
 // Inicialização da aplicação
 document.addEventListener('DOMContentLoaded', function() {
     openDB().then(() => {
-        if ('serviceWorker' in navigator) {
+        
+        /*if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/sw.js')
                 .then((registration) => {
                     console.log('Service Worker registrado com sucesso:', registration);
@@ -370,7 +371,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     console.log('Falha ao registrar o Service Worker:', error);
                 });
         }
-        
+        */
         console.log("Banco de dados inicializado. Iniciando aplicação...");
         exibirHorariosDisponiveis();
         carregarAgenda();
