@@ -1,13 +1,15 @@
 const CACHE_NAME = 'psico-app-v1'; // Nome do cache
 const ASSETS_TO_CACHE = [
-    '/', // Página principal
-    '/cadastro.html', // Página de cadastro
-    '/css/styles.css', // Arquivo CSS
-    '/js/app.js', // Arquivo JavaScript
-    '/js/db.js', // Arquivo JavaScript
-    '/image/icon-192x192.png', // Ícone
-    '/image/icon-512x512.png', // Ícone
-    // Adicione outros arquivos que deseja armazenar em cache
+    '/',
+    '/cadastro.html',
+    '/css/styles.css',
+    '/js/app.js',
+    '/js/db.js',
+    '/image/icon-192x192.png',
+    '/image/icon-512x512.png',
+    'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap',
+    'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
+    'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js'
 ];
 
 // Instalação do Service Worker
