@@ -28,6 +28,10 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "/cadastro.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/cadastro.html"
     }
